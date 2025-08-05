@@ -1,22 +1,31 @@
 {
   "permissions": {
     "allow": [
-      "Read",
+      "Bash(cd:*)",
+      "Bash(mvn:*)",
+      "Bash(ln:*)",
+      "Bash(find:*)",
+      "Bash(git:*)",
+      "Bash(xargs grep:*)",
+      "Bash(ls:*)",
+      "Edit",
       "Glob",
       "Grep",
       "LS",
-      "Edit",
-      "Write",
       "MultiEdit",
-      "NotebookRead",
       "NotebookEdit",
-      "WebFetch",
+      "NotebookRead",
+      "Read",
+      "Search",
       "Task",
+      "TodoWrite",
+      "WebFetch",
       "WebSearch",
-      "TodoWrite"
+      "Write"
     ],
     "additionalDirectories": [
-      "~/git/**"
+      "/Users/emilli/git",
+      "/Users/emilli/git2"
     ],
     "defaultMode": "acceptEdits"
   }
