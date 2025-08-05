@@ -1,18 +1,23 @@
 {
-  "allowed_tools": {
-    "working_directories": {
-      "~/git/**": true
-    },
-    "bash": {
-      "mkdir": true,
-      "sed": true,
-      "mvn": true,
-      "find": true
-    },
-    "read": true,
-    "glob": true,
-    "grep": true,
-    "edit": true,
-    "write": true
+  "permissions": {
+    "allow": [
+      "Read",
+      "Glob",
+      "Grep",
+      "LS",
+      "Edit",
+      "Write",
+      "MultiEdit",
+      "NotebookRead",
+      "NotebookEdit",
+      "WebFetch",
+      "Task",
+      "WebSearch",
+      "TodoWrite"
+    ],
+    "additionalDirectories": [
+      "~/git/**"
+    ],
+    "defaultMode": "acceptEdits"
   }
 }
